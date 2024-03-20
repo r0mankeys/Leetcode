@@ -116,9 +116,3 @@ int main(int argc, char *argv[])
 
 // The best general solution would be to use a hash map, however this would result
 // in a lot of C code. 
-
-
-void *say_hi(char *name)
-{
-    printf("Hello %s\n", name);
-}
